@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.catalogWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0 0 0;
+    
+}
+.catalogWrapper_card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(16, 112, 177, 0.2);;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+.card_img{
+    max-width: 100%;
+}
